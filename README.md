@@ -34,7 +34,7 @@ Ensure these files are correctly placed under `custom_data/` before training.
 
 3. Create a new project with **Object Detection (YOLO)** setup.
 
-4. Upload your images from the `custom_data/images/` folder.
+4. Upload your images from the dataset folder where you have signal screenshots .
 
 5. Use bounding boxes to label jamming signals in the images.
 
@@ -51,36 +51,6 @@ custom_data/
 ├── classes.txt     # List of class names (e.g., "JAM")
 ```
 
-Make sure the exported `labels/` and `classes.txt` files are correctly placed under `custom_data/` before training.
-
-### Steps:
-1. Launch Label Studio:
-   ```bash
-   label-studio
-   ```
-
-2. Create a new project with **Object Detection (YOLO)** setup.
-
-3. Upload your images from the `custom_data/images/` folder.
-
-4. Use bounding boxes to label jamming signals in the images.
-
-5. Once labeling is complete:
-   - Go to **Export**
-   - Choose **YOLO Format**
-   - Export the data
-
-6. After export, you should have the following structure:
-```
-custom_data/
-├── images/         # Your input images
-├── labels/         # YOLO-format `.txt` files for each image
-├── classes.txt     # List of class names (e.g., "JAM")
-```
-
-Make sure the exported `labels/` and `classes.txt` files are correctly placed under `custom_data/` before training.
-
----
 ### 📸 Before and After Manual Annotation
 
 Below is a comparison showing a sample image before and after annotation with the class `JAM` using Label Studio:
@@ -208,13 +178,5 @@ python predict.py
 
 ---
 
-
----
-
-
----
-
-
----
 
 
