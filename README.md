@@ -87,7 +87,7 @@ Below is a comparison showing a sample image before and after annotation with th
 
 | **Before Annotation**     | **After Annotation**      |
 |---------------------------|----------------------------|
-| ![Before](docs/before.png) | ![After](docs/after.png)  |
+| ![Before](before_240x240.png) | ![After](after_240x240.png)  |
 
 
 ---
