@@ -143,17 +143,8 @@ set KMP_DUPLICATE_LIB_OK=TRUE  # (on Windows)
 
 ### 5. Train the Model
 
-You can use the Ultralytics CLI or `prepare_and_train.py`:
-
 ```bash
-yolo detect train model=yolov8n.pt data=data.yaml epochs=60 imgsz=640
-```
-
-or:
-
-```bash
-python prepare_and_train.py
-```
+yolo detect train model=yolov8n.pt data=data.yaml epochs=60 imgsz=240
 
 ---
 
